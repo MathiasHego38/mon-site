@@ -1,3 +1,18 @@
-.rouge{
-    color: red;
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.mesCartes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card{
+    background-color: black;
+    color: white
+}
+.btn btn-primary. a{
+    color:gold
 }
