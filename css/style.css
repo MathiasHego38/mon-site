@@ -2,10 +2,58 @@ html,body{
     margin: 0;
     padding: 0;
 }
-.mesCartes{
+.panels{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.panel{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    flex: 1;
+    transition: flex .8s ease-in-out;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    
+}
+
+.panel:hover{
+    flex:4
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.lion{
+    background-image: url("../img/fifa-23.jpg");
+
+}
+
+.hands{
+    background-image: url("../img/nba2k22.jpg");
+
+}
+
+.eye{
+    background-image: url("../img/rocket-league.jpg");
+
+}
+
+.road{
+    background-image: url("../img/ufc-4.jpg");
+}
+
+.jeux{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -13,6 +61,6 @@ html,body{
     background-color: black;
     color: white
 }
-.btn btn-primary. a{
-    color:gold
+.couleur-or{
+    background-color: #8d8f10;
 }
