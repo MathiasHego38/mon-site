@@ -3,7 +3,7 @@ html,body{
     padding: 0;
 }
 .panels{
-    background-color: red;
+    background-color: white;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -23,7 +23,9 @@ html,body{
     align-items: center;
     
 }
-
+.panels, .jeux{
+flex-direction: column;
+}
 .panel:hover{
     flex:4
 }
@@ -31,28 +33,28 @@ html,body{
     opacity: 100%;
 }
 
-.lion{
+.fifa-23{
     background-image: url("../img/fifa-23.jpg");
 
 }
 
-.hands{
+.nba-2k22{
     background-image: url("../img/nba2k22.jpg");
 
 }
 
-.eye{
+.rocket-league{
     background-image: url("../img/rocket-league.jpg");
 
 }
 
-.road{
+.ufc-4{
     background-image: url("../img/ufc-4.jpg");
 }
 
 .jeux{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:: center;
     padding-top: 20px;
     padding-bottom: 20px;
