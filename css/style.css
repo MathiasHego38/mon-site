@@ -72,12 +72,19 @@ flex-direction: column;
     background-color: #8d8f10;
 }
 
-footer .services{
-    margin-top: 20px;
+h2{
+    text-decoration: underline;
+}
+
+.services{
     display:flex;
+    padding-top: 20px;
     justify-content: space-around;
-    }
-    footer .services .service{
-        margin-right: 30px;
-    }
+    background-color: #cae5f5;
+    
+}
+.services .service{
+     margin-right: 30px;
+     justify-content: space-between;
+}
         
