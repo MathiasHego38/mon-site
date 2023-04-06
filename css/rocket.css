@@ -1,0 +1,97 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.panels{
+    background-color: white;
+    display: flex;
+}
+
+.panel{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    flex: 1;
+    transition: flex .8s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.panel:hover{
+    flex:4
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.fifa-23{
+    background-image: url("../img/fifa-23.jpg");
+
+}
+
+.nba-2k22{
+    background-image: url("../img/nba2k22.jpg");
+
+}
+
+.rocket-league{
+    background-image: url("../img/rocket-league.jpg");
+
+}
+
+.ufc-4{
+    background-image: url("../img/ufc-4.jpg");
+}
+h2{
+    background-image: url("../img/arriere-plan.jpg");
+    color: white;
+    margin-bottom: -10px;
+    }
+.jeux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -50px;
+    background-image: url("../img/arriere-plan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titreJeu{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.card{
+    background-color: black;
+    color: white;
+}
+h3{
+    text-decoration: underline;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer .services{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
