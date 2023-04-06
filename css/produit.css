@@ -2,9 +2,6 @@ html,body{
     margin: 0;
     padding: 0;
 }
-
-/*Panel*/
-
 .panels{
     background-color: white;
     display: flex;
@@ -28,7 +25,6 @@ html,body{
 .panel:hover>.titreJeu{
     opacity: 100%;
 }
-
 .fifa-23{
     background-image: url("../img/fifa-23.jpg");
 
@@ -47,7 +43,11 @@ html,body{
 .ufc-4{
     background-image: url("../img/ufc-4.jpg");
 }
-
+h2{
+background-image: url("../img/arriere-plan.jpg");
+color: white;
+margin-bottom: -10px;
+}
 .jeux{
     display: flex;
     justify-content: space-around;
@@ -61,24 +61,10 @@ html,body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.titreJeu{
-    display: flex;
-    justify-content: center;
-    margin-top: 15vh;
-}
-
-/*Card*/
-
-
 .card{
     background-color: black;
     color: white;
 }
-.couleur-or{
-    background-color: #8d8f10;
-}
-
 h3{
     text-decoration: underline;
     justify-content: flex-start;
@@ -102,3 +88,4 @@ footer .services .service{
 footer .services .service p{
     max-width: 300px;
   }
+  h
